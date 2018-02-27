@@ -77,7 +77,7 @@ def getFullBuild(jdk, os) {
       {
         stage('Test') {
           withEnv(mvnEnv) {
-            timeout(time: 180, unit: 'MINUTES') {
+            timeout(time: 360, unit: 'MINUTES') {
               // Run test phase / ignore test failures
               withMaven(
                       maven: 'maven3',
