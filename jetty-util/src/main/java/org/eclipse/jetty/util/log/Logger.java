@@ -21,7 +21,7 @@ package org.eclipse.jetty.util.log;
 /**
  * A simple logging facade that is intended simply to capture the style of logging as used by Jetty.
  */
-public interface Logger
+public interface   Logger
 {
     /**
      * @return the name of this logger
